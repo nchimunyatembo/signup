@@ -1,6 +1,76 @@
 <!doctype html>
 <html>
-  <body>
-    <h>My project in vercel</h>
+    <h>My project in vercel</h><br>
+    <head>
+    <meta name="viewport"content="width=device-width,initial-scale=1">
+    <title>Login Page</title>
+    <style>
+        body{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-color: pink;
+        }
+        button{
+            background-color: blue;
+            width: 100%;
+            color: orange;
+            padding: 50px;
+            margin: 10px 0px;
+            border: none;
+            cursor: pointer;
+        }
+        form{
+            border: 3px solid;
+        }
+        input [type="text"],type="password"]{
+            width: 100%;
+            margin: 8px 0;
+            padding: 12px 20px;
+            display: inline-block;
+            border: 2px solid green;
+            box-sizing: border-box
+
+        }
+        button: :hover{
+            opacity: 0.8;
+
+        }
+        cancelbtn {
+            width: auto;
+            padding: 10px 18px;
+            margin: 10px 5px;
+
+        }
+        container {
+            padding: 25px;
+            background-color: brown;
+        }
+    </style>
+</head>
+    <body>
+        <center><h1>PDHO Staffs <br>Sign Up Page</h></center>
+        ,<center><form><p>Personal details</p>
+          <div class="container"> <label>Enter your firstname<br>
+            </label><input type="text"name="firstname"required><br>
+            <label>Enter your Surname</label><br>
+            <input type="text"name="Surname"required><br>
+            <label>Enter your Email address</label><br>
+            <input type="email"required><br>
+            <label>Confirm paswword</label><br>
+            <input type="password-repeat"name"password-repeat" required><br>
+            <label>
+                <input type="checkbox"checked"check" name"Remember">Remember me
+            </label><br>
+            <label>Select Gender</label><br>
+            <input type="radio"id"gender" name"gender" value"male">Male<br>
+            <input type="radio"id"gender" name"Gender" value"female">Female<br>
+            <input type="radio"id"gender" name"Gender" value"Other">Other<br>
+            <label>Enter your address here</label><br>
+            <textarea></textarea>
+            <div class="clearfix"><button type="submit">sign up</button><br>
+            <button type="button"class="cancelbtn">Cancel</button><br>
+            have an account already<a href="#">Login here?</a>Powered by Nchimunya Tembo
+        </div>
+        </div> 
+        </form></center>
   </body>
 </html>
